@@ -13,14 +13,6 @@ It helps you create, edit, and manage your notes easily with a clean and modern 
 - 💾 Local storage using Hive (or Firebase if integrated)
 - 📱 Responsive UI (works on Android & iOS)
 
----
-
-## 📸 Screenshots
-(Add your app screenshots here)  
-Example:
-
-<img src="screenshots/home.png" alt="Home Screen" width="300">
-<img src="screenshots/add_note.png" alt="Add Note Screen" width="300">
 
 ---
 
