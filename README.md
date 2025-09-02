@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 📝 Smart Notes
 
 Smart Notes is a simple and smart note-taking app built with **Flutter**.  
@@ -57,3 +58,6 @@ F:\DEPI\TECHNICAL TASKS\NOTES_APP\LIB
 ª       note_item_wiget.dart
 ª       note_list_view.dart
         
+=======
+# Smart-Notes
+>>>>>>> ec8bcc2a6a792904362f30dd1653685aabf5f176
