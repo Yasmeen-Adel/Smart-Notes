@@ -13,7 +13,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
-    Timer(const Duration(seconds: 2), () {
+    Timer(const Duration(seconds: 3), () {
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(builder: (context) => const NotesScreen()),
@@ -23,16 +23,24 @@ class _SplashScreenState extends State<SplashScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return  Scaffold(
       backgroundColor: Colors.white,
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Icon(
-            Icons.note,
-            size: 100,
-            color: Colors.black,
+          
+          // Icon(
+          //   Icons.note,
+          //   size: 100,
+          //   color: Colors.black,
+          // ),
+          Image(
+            image: AssetImage('assets/splashimage.png'),
+            //image: AssetImage('assets/splashimage.png'),
+            width: 200,
+            height: 200,
           ),
+          SizedBox(height: 20),
           Center(
             child: Text(
               "Smart Notes",
