@@ -1,20 +1,35 @@
-<<<<<<< HEAD
-# notes_app
+# 📝 Smart Notes
 
-A new Flutter project.
+Smart Notes is a simple and smart note-taking app built with **Flutter**.  
+It helps you create, edit, and manage your notes easily with a clean and modern interface.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
+- ✨ Add, edit, and delete notes
+- 📂 Organize your notes efficiently
+- 🔍 Search and filter notes
+- 🌓 Light & dark mode support
+- 💾 Local storage using Hive (or Firebase if integrated)
+- 📱 Responsive UI (works on Android & iOS)
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📸 Screenshots
+(Add your app screenshots here)  
+Example:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# Smart-Notes
->>>>>>> 3322d0cc98b334a771d03a391324023a2ebee367
+<img src="screenshots/home.png" alt="Home Screen" width="300">
+<img src="screenshots/add_note.png" alt="Add Note Screen" width="300">
+
+---
+
+## 🛠️ Tech Stack
+- [Flutter](https://flutter.dev/) - UI Framework
+- [Dart](https://dart.dev/) - Programming Language
+- [Hive](https://pub.dev/packages/hive) - Local Database  
+  *(Replace with Firebase if you’re using Firestore/Authentication)*
+
+---
+
+## 📂 Project Structure
