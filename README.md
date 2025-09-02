@@ -25,35 +25,32 @@ It helps you create, edit, and manage your notes easily with a clean and modern 
 ---
 
 ## 📂 Project Structure
-Folder PATH listing
-Volume serial number is F56D-59A0
-F:\DEPI\TECHNICAL TASKS\NOTES_APP\LIB
-ª   main.dart
-ª   my_bloc_observer.dart
-ª   
-+---cubits
-ª   +---add_note_cubit
-ª   ª       add_note_cubit.dart
-ª   ª       add_note_cubit_state.dart
-ª   ª       
-ª   +---notes_cubit
-ª           notes_cubit.dart
-ª           notes_cubit_state.dart
-ª           
-+---models
-ª       note_model.dart
-ª       note_model.g.dart
-ª       
-+---screens
-ª       edit_note_screen.dart
-ª       notes_screen.dart
-ª       splash_screen.dart
-ª       
-+---widgets
-ª       bottom_sheet_widget.dart
-ª       constants.dart
-ª       custom_button_widget.dart
-ª       custom_text_field.dart
-ª       note_item_wiget.dart
-ª       note_list_view.dart
-        
+lib/
+│── main.dart
+│── my_bloc_observer.dart
+│
+├── cubits/
+│ ├── add_note_cubit/
+│ │ ├── add_note_cubit.dart
+│ │ └── add_note_cubit_state.dart
+│ │
+│ └── notes_cubit/
+│ ├── notes_cubit.dart
+│ └── notes_cubit_state.dart
+│
+├── models/
+│ ├── note_model.dart
+│ └── note_model.g.dart
+│
+├── screens/
+│ ├── edit_note_screen.dart
+│ ├── notes_screen.dart
+│ └── splash_screen.dart
+│
+└── widgets/
+├── bottom_sheet_widget.dart
+├── constants.dart
+├── custom_button_widget.dart
+├── custom_text_field.dart
+├── note_item_widget.dart
+└── note_list_view.dart
